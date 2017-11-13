@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+enum Status {
+  SUCCESS = 200;
+  SERVER_ERROR = 500;
+  REQUEST_INVALID = 400;
+  UNAUTHORIZED = 401;
+  FORBBIDEN = 403;
+}
+
+message Request {
+  string endpoint = 1;
+  string token = 3;
+  map<string, string> params = 4;
+  string body = 5;
+}
+
+message Response {
+  Status status = 101;
+  string body = 103;
+}

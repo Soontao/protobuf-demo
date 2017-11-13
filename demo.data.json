@@ -1,0 +1,13 @@
+{
+  "Request": {
+    "endpoint": "login",
+    "params": {
+      "username": "user",
+      "password": "pass"
+    }
+  },
+  "Response": {
+    "status": 200,
+    "body": "hello proto"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "protobuf-demo",
+  "version": "1.0.0",
+  "description": "just a demo for protobuf usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soontao/protobuf-demo.git"
+  },
+  "author": "Theo Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soontao/protobuf-demo/issues"
+  },
+  "homepage": "https://github.com/Soontao/protobuf-demo#readme",
+  "dependencies": {
+    "protobufjs": "^6.8.0"
+  }
+}
